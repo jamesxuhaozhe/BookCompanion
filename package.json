@@ -1,0 +1,23 @@
+{
+    "name": "kindle-companion",
+    "version": "1.0.0",
+    "description": "Kindle Companion app that handle Alexa request",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "request": "*",
+        "xml2js": "*",
+        "alexa-sdk": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heroku/node-js-sample"
+    },
+    "author": "Haozhe Xu",
+    "contributors": [
+        "Haozhe Xu"
+    ],
+    "license": "MIT"
+}
